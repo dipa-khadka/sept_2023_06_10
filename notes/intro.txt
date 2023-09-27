@@ -1,0 +1,50 @@
+1. What is Django?
+=> Django is a Python Web Framework
+=> We create a web application using Django
+
+
+2. Why Django?
+=> Python is comparatively easy language to learn and it is easy to shift to Django after 
+learning Python
+=> Other Python web frameworks are:
+	- Flask
+	- Pyramid
+	- FastAPI etc.
+
+
+3. Types of Web Applications
+	- SSR (Server Side Rendering)
+	- SPA (Single Page Application)
+	
+	SSR:
+		In this type of web application your template is rendered and return from the server itself.
+	SPA:
+		In this type of web application, only components in the single page is changed. Your page does not reload in every request. These applications are created using FE frameworks like Angular, React, VueJS.
+	
+
+4. API (Application Programmable Interface)
+	- API is the communication medium between any two entites. Backend-Frontend, backend-mobile application, backend-backend etc.
+
+
+5. What will we create SPA or SSR?
+=> First we will create SSR applications.
+=> Then we will learn to create APIs for SPA applications
+=> Then we will do a final project is SSR model.
+=> Then you may submit APIs for that project.
+
+
+
+6. Let's create a Django Project
+	=> Create a virtual environment and activate the environment
+	=> pip install django
+	=> django-admin startproject <project_name>
+	=> cd <project_name>
+	=> python manage.py runserver
+
+
+7. Django follows MVT Architecture
+    What is MVC (Model View Controller) architecture?
+        - In MVC architecture we write table models in Model, HTML/CSS/JS in View and functions/logic
+        in the controller. Laravel, .net etc. follows MVC arch.
+        - In contrast, we write table models in Model, HTML/CSS/JS in Template and functions/logic in
+        the MVT architecture. Django follows MVT arch.
